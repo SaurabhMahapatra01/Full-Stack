@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table Exercise</title>
+</head>
+<body>
+	<h1>Exercise On Table</h1>
+  <table border="2">
+  	
+  		<tr>
+  			<th colspan="2"> Schedule</th>
+  			<th colspan="3"> Product</th>
+  		</tr>
+  	
+    	<tr>
+    		<th rowspan="2"> Day</th>
+    		<th rowspan="2"> Time</th>
+    		<th rowspan="2"> Item</th>
+    		<th colspan="2"> Shipping Details</th>
+    	</tr>
+    	<tr>
+    		<th>Quantity</th>
+    		<th>Cost</th>
+    	</tr>
+    	<tr>
+    		<td rowspan="6"> MONDAY</td>
+    		<td rowspan="3">10:00 AM</td> <!--Under Monday  10AM Contan 3Rows-->
+    		<!--Under 10AM 1Row-->
+    		<td>Bag</td>
+    		<td>10</td>
+    		<td rowspan="3">2000.00</td>
+    	</tr>
+        <tr> <!-- Under 10AM 2Row-->
+        	<td>T-Shirt</td>
+        	<td>10</td>
+        </tr>
+        <tr> <!-- UNder 10 AM 3Row-->
+        	<td>Notebook</td>
+        	<td>20</td>
+        </tr>
+
+        <tr> 
+        	<td rowspan="2">1:00 PM</td><!-- Under Monday 1Pm Contain 2Row-->
+        	<td>T-Shirt</td> <!-- Under 1PM 1st Row-->
+        	<td>20</td>
+        	<td rowspan="2">1300.00</td>
+        </tr>
+        <tr> <!-- Under 1PM 2nd Row-->
+        	<td>Notebook</td>
+        	<td>15</td>
+        </tr>
+
+        <tr> <!-- Under Monday Contain 1 row  Now Monday Contander Full--> 
+        	<td>5:00 PM</td> <!-- Under Monday 5Pm Contain 1Row-->
+        	<td>Bag</td>
+        	<td>8</td>
+        	<td>800.00</td>
+        </tr>
+
+        <!-- Monday Row is End Now 2nd Day Row will Start-->
+        <tr>
+        	<td rowspan="5"> TUESDAY</td>
+        	<td rowspan="3">12:00 PM</td> <!--Under Tue  12Pm  Contain 3 Row-->
+        	<td>Bag</td>  <!-- 1st Row of 12Pm-->
+        	<td>8</td>
+        	<td rowspan="3">2100.00</td>
+        </tr>
+
+
+        <tr> <!-- 2nd Row of 12Pm-->
+        	<td>T-Shirt</td>
+        	<td>12</td>
+        </tr>
+        <tr> <!-- 3rd Rows of 12 Pm-->
+        	<td>Notebook</td>
+        	<td>22</td>
+        </tr>
+
+        <!-- #rows Of 12 pm end from 5 rows of Tueday-->
+        <tr>
+        	<td rowspan="2">1:00 PM</td> <!-- Under Tues  1Pm Contain 2Rows-->
+        	<td>T-Shirt</td>   <!-- 1st Rows of 1Pm-->
+        	<td>10</td>
+        	<td rowspan="2">600.00</td>
+        </tr>
+        <tr> <!-- 2nd Rows Of 1Pm-->
+        	<td>Notebook</td>
+        	<td>10</td>
+        </tr>
+
+  </table>
+</body>
+</html>
