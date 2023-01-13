@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Form Exercise</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<h2>Pizza order Form Page</h2>
+	<table border="2">
+		<tr>
+		  <td colspan="2">Pizza Shop 2.0</td>
+		</tr>
+		<tr>
+			<td> <label>Name</label> </td>
+			<td> <input type="text"> </td>
+		</tr>
+		<tr>
+			<td><label>Pizza Toping</label></td>
+			<td> 
+				<input type="radio" name="topping" value="Supreme">Supreme<br>
+				<input type="radio" name="topping" value="Vegetarian">Vegetarian<br>
+				<input type="radio" name="topping" value="Non-Veg">Non-veg
+			 </td>
+		</tr>
+
+		<tr>
+			<td>Pizza Sauce</td>
+			<td>
+				<select>
+					<option value="Pesto">Pesto</option>
+					<option value="Tomato">Tomato</option>
+					<option value="Garlic sauce"> Garlic Sauce</option>
+					<option value="barbeque">Barbeque</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Option Extras</td>
+			<td>
+				<input type="checkbox" name="Extra">Extra Cheese
+				<input type="checkbox" name="Extra1">Gluten Free Base
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<label for="inst">Delivery Instructions:</label><br>
+				<textarea  id="inst" rows="5" cols="44"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2"><input type="button" value="Send my Order">  </td>
+		</tr>
+	</table>
+	
+</body>
+</html>
